@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<title>翻转画廊</title>
+		// 调用库css
+		<link rel="stylesheet" type="text/css" href="libs/style.css">
+		<link href="libs/css" rel="stylesheet" type="text/css">
+		<link href="libs/css(1)" rel="stylesheet" type="text/css">
+		
+	</head>
+		
+	<body>
+		<div id="tf_loading" class="tf_loading" style="display: none;"></div>
+		
+		//图片显示
+		<div id="tf_bg" class="tf_bg">
+				<!-- <div class="tf_pattern"></div> -->
+		</div>
+		//文字显示
+		<div id="tf_content_wrapper" class="tf_content_wrapper">
+		</div>
+
+		// 展示当前缩略图
+		<div id="tf_thumbs" class="tf_thumbs" >
+		</div>
+		
+		// 导航键
+		<div id="tf_next" class="tf_next"></div>
+		<div id="tf_prev" class="tf_prev"></div>
+		
+		// 加载库文件js
+		<script type="text/javascript" src="libs/jquery.js"></script>
+		<script type="text/javascript" src="libs/jquery.flip.js"></script>
+		<script type="text/javascript" src="libs/jquery.mousewheel.js"></script>
+		// 加载页面特定js
+		<script type="text/javascript" src="js/initDataFinished.js"></script>
+		<script type="text/javascript" src="json/data.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+
+	</body>
+</html>

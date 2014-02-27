@@ -1,0 +1,20 @@
+data={	
+	"1":{
+		"img":"image/1.jpg"
+	},
+	"2":{
+		"img":"image/2.jpg"
+	},
+	"3":{
+		"img":"image/3.jpg"
+	},
+	"4":{
+		"img":"image/4.jpg"
+	},
+	"5":{
+		"img":"image/5.jpg"
+	},
+	"6":{
+		"img":"image/6.jpg"
+	}
+}
