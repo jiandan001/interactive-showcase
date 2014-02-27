@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Image Template</title>
+            
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Image Template" />
+        <meta name="keywords" content="image gallery, circles, bubble, photos, images, round, jquery, sliding, effect, animation, portfolio"/>
+		<!--<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/> -->
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+		<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="js/ChunkFive_400.font.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			//Cufon.replace('h1', {textShadow: '1px 1px #feec87'})('.footer');
+		</script>
+        
+    
+    </head>
+    <body>
+    	<div id="main">
+		<div class="top_menu" id="top_menu">
+			<span id="description" class="description"></span>
+			<a id="back" href="#" class="back"><span></span>返回</a>
+			<div class="info">
+				<span class="album_info">相册 1</span>
+				<span class="image_info"> / 当前 1</span>
+			</div>
+		</div>
+		<div id="loader" class="loader"></div>
+		<div class="header" id="header" style="top:-90px;"><!--top 30 px to show-->
+			<!-- <h1 id="head_h1">理工篮园<span>公司介绍</span></h1> -->
+		</div>
+     
+		<div id="thumbnails_wrapper" class="thumbnails_wrapper" style="top:-255px;"><!--top 110 px to show-->
+			
+			<div id="tshf_container1"  class="tshf_container">
+				<div class="thumbScroller">
+					<div id="image_content" class="container">
+                        <!--
+						<div id="image_content" class="content">
+							<div>
+								<a href="#">
+									<img src="img/1.jpg" alt="image description comes here" class="thumb" />		
+								</a>
+								<span></span>
+							</div>
+						</div>
+						-->
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="bubble">
+			<img id="bubble" src="images/bubble.png" alt=""/>
+		</div>
+		
+		<div id="preview" class="preview">
+			<a id="prev_image" href="#" class="prev_image"></a>
+			<a id="next_image" href="#" class="next_image"></a>
+		</div>
+
+		</div>
+		
+
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="libs/jquery.js"></script>
+		<script type="text/javascript" src="libs/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="libs/jquery.thumbnailScroller.js"></script>
+		<script type="text/javascript" src="js/view.js"></script>
+       
+    </body>
+</html>

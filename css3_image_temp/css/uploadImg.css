@@ -1,0 +1,44 @@
+
+body{
+	margin:20px 0 0 20px;
+	widht:980px;
+	height:100%;
+}
+
+div,form,{padding:0;margin:0;}
+
+/* form */
+.sd-form-list{
+	position:relative;font-size:12px; line-height:1.5; font-family:Tahoma;
+}
+
+/*这里使用Tahoma字体使表单对齐*/
+.sd-form-list .form-position-right{position:absolute; right:10px; top:0;}
+.sd-form-list .sd-form-txt{height: 20px; padding-left:3px; line-height:20px;background-color:#FFFFFF; 
+border:1px solid #BBBBBB; vertical-align:middle;
+}
+.sd-form-list .row{margin-bottom:6px;} /*每行间距*/
+.sd-form-list input{vertical-align:middle;}
+.sd-form-list .sd-form-label{display:inline-block; width:110px; *display:inline; *zoom:1; text-align:right; vertical-align:middle;}
+
+/*width控制左列宽,text-align设置对齐方式*/
+.sd-form-list label.vt{vertical-align:top;}
+.sd-form-list label.vb{vertical-align:bottom;}
+.sd-form-list .sd-form-label em{color:red; margin-right:5px; font-family:simsun; font-style:normal;}
+.sd-form-list .collection{display:inline-block; *display:inline; *zoom:1; vertical-align:middle;}
+.sd-form-list .rc{ margin-right:10px;}
+.sd-form-list .rc input{vertical-align:text-top; width:13px; height:15px;  margin-right:5px;}
+.sd-form-list .sd-textarea{padding:3px; border:1px solid #bbb; width:400px; height:60px; font:12px/1.5em Tahoma;overflow-y:auto;}
+.sd-form-list span.sd-mark{color:red; padding-left:10px;}
+.sd-form-list p.sd-mark{color:red; padding-left:0; padding-top:3px;}
+.sd-form-list .sd-form-file{vertical-align:middle; *height:22px;}
+.sd-form-list .sd-form-btn{overflow:visible; padding:0 10px;}
+
+
+table {
+	width:400px;
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+}
