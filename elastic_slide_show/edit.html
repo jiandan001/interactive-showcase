@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Elastic Image Slideshow with Thumbnail Preview</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Elastic Image Slideshow with Thumbnail Preview" />
+        <meta name="keywords" content="jquery, css3, responsive, image, slider, slideshow, thumbnails, preview, elastic" />
+        <meta name="author" content="Codrops" />
+       <!--  <link rel="shortcut icon" href="../favicon.ico"> --> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+       <!--  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' /> -->
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/noscript.css" />
+		</noscript>
+   </head>
+    <body>
+        <div class="container">
+            <div class="header" style="height:60px;">
+            </div>
+            <div class="wrapper">
+                <div id="ei-slider" class="ei-slider">
+                   <ul class="ei-slider-large" id="slider-large">
+                    </ul>
+                 <ul class="ei-slider-thumbs" id="slider-thumbs">
+                    <li class="ei-slider-element">Current</li>
+                 </ul>
+                </div><!-- ei-slider -->
+            </div><!-- wrapper -->
+        </div>
+        <script type="text/javascript" src="libs/jquery.js"></script>
+        <script type="text/javascript" src="libs/jquery.eislideshow.js"></script>
+        <script type="text/javascript" src="libs/jquery.easing.1.3.js"></script>
+
+      <!-- 下面这些代码的位置不能变，包括 js 文件的引入顺序也不能变 -->
+
+        <!-- 这里是对话框容器 -->
+        <div id="dialog-form" title="" style="font-family: 'Microsoft YaHei'; font-size: 13px;">
+        </div>
+        
+        <style type="text/css">.abtn{ cursor: pointer; } input,textarea{ outline: none;}</style>
+
+        <!-- 动态引入 jquery -->
+        <script type="text/javascript">
+            if (typeof jQuery == 'undefined'){
+                document.write(unescape('%3Cscript src="/libs/jquery.min.js" %3E%3C/script%3E'));
+            }
+        </script>
+        <!-- jquery ui -->
+        <link rel="stylesheet" type="text/css" href="/libs/jquery/jquery-ui.css">
+        <script type="text/javascript" src="/libs/jquery/jquery-ui.js"></script>
+        <script type="text/javascript" src="/libs/jquery/jquery.form.js"></script>
+        <!-- jquery noty -->
+        <script type="text/javascript" src="/libs/jquery/noty/jquery.noty.js"></script>
+        <script type="text/javascript" src="/libs/jquery/noty/layouts/top.js"></script>
+        <script type="text/javascript" src="/libs/jquery/noty/layouts/topCenter.js"></script>
+        <script type="text/javascript" src="/libs/jquery/noty/themes/default.js"></script>
+        <!-- alpacajs -->
+        <script type="text/javascript" src="/libs/jquery/jquery.tmpl.js"></script>
+        <script type="text/javascript" src="/libs/alpaca/js/alpaca.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/libs/alpaca/css/alpaca-jqueryui.css">
+        <link rel="stylesheet" type="text/css" href="/libs/alpaca/css/alpaca.min.css">
+        <!-- glue util -->
+        <script type="text/javascript" src="/libs/mask.js"></script>
+        <script type="text/javascript" src="/libs/gutil.js"></script>
+        <!-- current module edit -->
+        <script type="text/javascript" src="js/edit.js"></script>
+    </body>
+</html>
